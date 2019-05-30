@@ -1,1 +1,8 @@
+# HTTP Server
+server:  
+  port: 8082   # HTTP port
 
+# Spring properties
+spring:  
+  application:
+    name: RestService
