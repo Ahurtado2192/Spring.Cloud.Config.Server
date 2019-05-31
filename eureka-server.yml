@@ -1,0 +1,7 @@
+server:
+  port: ${PORT:1111}   # HTTP port
+
+eureka:
+  instance:
+    preferIpAddress: true
+    prefer-ip-address: true   
