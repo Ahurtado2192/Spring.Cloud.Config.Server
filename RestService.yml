@@ -1,5 +1,4 @@
-server:  
-  address: x.x.x.x
+server:   
   port: ${PORT:8080}   # HTTP port
 
 # Spring properties
@@ -17,9 +16,6 @@ spring:
 eureka:  
   instance:
     prefer-ip-address: true
-    ip-address: ${server.address}
-    instance-id: ${server.address}:${server.port}
-
   client:
     serviceUrl:
       defaultZone: http://springcloudnetflix-eurek-fusetest.apps.na311.openshift.opentlc.com/eureka/         
