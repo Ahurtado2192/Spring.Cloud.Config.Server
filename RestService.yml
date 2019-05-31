@@ -1,6 +1,6 @@
 # HTTP Server
 server:  
-  port: ${PORT:0}   # HTTP port
+  port: ${PORT:8080}   # HTTP port
 
 # Spring properties
 spring:  
