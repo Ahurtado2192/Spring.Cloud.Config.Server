@@ -6,3 +6,17 @@ server:
 spring:  
   application:
     name: RestService
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - eth0
+        - eth1
+        - eth2
+        - eth3
+        - lo
+eureka:  
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://springcloudnetflix-eurek-fusetest.apps.na311.openshift.opentlc.com/eureka/                
