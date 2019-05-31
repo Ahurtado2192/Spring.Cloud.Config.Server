@@ -1,10 +1,7 @@
 server:
-  address: x.x.x.x
   port: ${PORT:1111}   # HTTP port
 
 eureka:
   instance:
     preferIpAddress: true
     prefer-ip-address: true
-    ip-address: ${server.address}
-    instance-id: ${server.address}:${server.port}   
