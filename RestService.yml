@@ -17,6 +17,7 @@ spring:
 eureka:  
   instance:
     prefer-ip-address: true
+    ip-address: x.x.x.x
   client:
     serviceUrl:
       defaultZone: http://springcloudnetflix-eurek-fusetest.apps.na311.openshift.opentlc.com/eureka/                
